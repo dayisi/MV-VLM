@@ -1,0 +1,49 @@
+{"train":[
+
+],
+"val":[
+
+],
+"test": [
+    {
+        "subject_id": "example_data",
+        "study_id": "images_laptop",
+        "image_path": [
+            "images/laptop/laptop1.jpg",
+            "images/laptop/laptop2.jpg",
+            "images/laptop/laptop3.jpg"
+        ],
+        "caption": [
+            "[SCREEN_TYPE] displaying video game, hand on keyboard, speakers on desk",
+            "[SCREEN_TYPE] displaying game, hand on keyboard, speakers on desk",
+            "[SCREEN_TYPE] with game, hand on keyboard, speakers"
+        ],
+        "report": "screen_type: laptop. description: computer monitor displaying video game, hand on keyboard, speakers on desk; monitor displaying game, hand on keyboard, speakers on desk; monitor with game, hand on keyboard, speakers",
+        "binary_label": 0,
+        "split": "test",
+        "prev_caption": [],
+        "prev_report": "",
+        "label": "laptop"
+    },
+    {
+        "subject_id": "example_data",
+        "study_id": "images_smartphone",
+        "image_path": [
+            "images/smartphone/smartphone1.jpg",
+            "images/smartphone/smartphone2.jpg",
+            "images/smartphone/smartphone3.jpg"
+        ],
+        "caption": [
+            "person holding [SCREEN_TYPE], finger on screen, white background",
+            "person holding [SCREEN_TYPE], finger on screen, plain background",
+            "person holding [SCREEN_TYPE], thumb on screen, white background, slightly blurred image"
+        ],
+        "report": "screen_type: smartphone. description: person holding smartphone, finger on screen, white background; person holding smartphone, finger on screen, plain background; person holding smartphone, thumb on screen, white background, slightly blurred image",
+        "binary_label": 0,
+        "split": "test",
+        "prev_caption": [],
+        "prev_report": "",
+        "label": "smartphone"
+    }
+]
+}

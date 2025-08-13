@@ -1,0 +1,4 @@
+# Ignore all checkpoints
+*.pth
+MVVLM/saved_ckpt/
+

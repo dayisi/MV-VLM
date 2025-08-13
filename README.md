@@ -14,7 +14,7 @@ python step1_build_group_caption_example_caption.py
 python step2_convert_group_caption_into_emb.py
 ```
 
-Run the model
+# Run the model
 ```
 conda create --name MVVLM --file requirements.txt
 cd MVVLM

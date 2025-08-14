@@ -1,5 +1,6 @@
 # MV-VLM
-This is the implementation for the screen time project using a multi-view vision language model https://arxiv.org/abs/2410.01966
+This is the implementation for ["Screen Detection from Egocentric Image Streams
+Leveraging Multi-View Vision Language Model"](https://arxiv.org/abs/2410.01966).
 
 You need to download the [Llama-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).
 

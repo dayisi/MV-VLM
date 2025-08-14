@@ -17,9 +17,8 @@ parser.add_argument('--base_dir_text2', type=str, default = None)
 # ========================= Model Settings ============================
 parser.add_argument('--nollm', default=False, type=str, help="do not use llm. use linear layers instead.")
 parser.add_argument('--vision_model', default='microsoft/swin-base-patch4-window7-224', type=str, help="vision model to use")
-# parser.add_argument('--llama_model', default='./Llama', type=str, help="path to LLM model to use")
+parser.add_argument('--llama_model', default='./Llama', type=str, help="path to LLM model to use")
 parser.add_argument('--load_pretrainedLLM', default=False, type=bool, help="Pretrained LLM model to use")
-parser.add_argument('--llama_model', default='meta-llama/Meta-Llama-3-8B', type=str, help="LLM model to use")
 parser.add_argument('--freeze_vm', default=True, type=lambda x: (str(x).lower() == 'true'), help='freeze vision model')
 parser.add_argument('--freeze_alignment', default=True, type=lambda x: (str(x).lower() == 'false'), help='freeze alignemnt layer')
 parser.add_argument('--llm_use_lora', default=True, type=lambda x: (str(x).lower() == 'true'), help="whether use lora for LLM model")
@@ -73,3 +72,4 @@ parser.add_argument('--every_n_train_steps', type=int, default=0, help='How many
 parser.add_argument('--val_check_interval', type=float, default=1.0, help='How often to check the validation set')
 parser.add_argument('--accumulate_grad_batches', type=int, default=1, help='Accumulates gradients over k batches before stepping the optimizer')
 parser.add_argument("--num_sanity_val_steps", type=int, default=2, help='Sanity check runs n validation batches before starting the training routine')
+

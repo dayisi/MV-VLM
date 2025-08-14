@@ -1,7 +1,7 @@
 # MV-VLM
 This is the implementation for the screen time project using a multi-view vision language model https://arxiv.org/abs/2410.01966
 
-You need to download the Llama model from https://huggingface.co/meta-llama/Llama-2-7b.
+You need to download the [Llama-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf).
 
 # Data preprocess
 
@@ -15,7 +15,7 @@ python step2_convert_group_caption_into_emb.py
 
 # Run the model
 
-The checkpoint file can be downloaded via the link: https://stevens0-my.sharepoint.com/:u:/g/personal/xhou11_stevens_edu/ETo_NSJyX19Lujtely1VqBEBgFHitXBFqsUb_z0AYloR4w?e=iZAjdZ.
+The checkpoint file can be downloaded via the link: [checkpoint_epoch5_step437.pth](https://stevens0-my.sharepoint.com/:u:/g/personal/xhou11_stevens_edu/ETo_NSJyX19Lujtely1VqBEBgFHitXBFqsUb_z0AYloR4w?e=iZAjdZ).
 
 Please download it and save it into the ```MVVLM/saved_ckpt``` folder.
 
